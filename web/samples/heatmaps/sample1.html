@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Basic Heatmap</title>
+    </head>
+    <body>
+        <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+        <script src="/web/assets/js/plotly-latest.min.js"></script>
+        <script>
+            var data = [
+            {
+                z: [[1, 20, 30], [20, 1, 60], [30, 60, 1]],
+                type: 'heatmap'
+            }
+            ];
+            var layout = {
+            title: 'Basic Heatmap',
+            };
+
+            Plotly.newPlot('myDiv', data, layout);
+        </script>
+    </body>
+</html>
