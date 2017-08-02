@@ -1,5 +1,6 @@
 
 .verticallines{
-    border-style: solid;
-    border-left: thick solid;
+    border-color:lightblue;
+    border-style: thin solid;
+    border-left: solid;
 }
